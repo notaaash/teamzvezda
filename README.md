@@ -42,4 +42,4 @@ Join Raahat today and take the first step towards a smoother journey through the
 
 ## Contact Us
 
-Have questions or need assistance? Reach out to our team at [contact@raahat.com](mailto:contact@raahat.com). We're here to help you every step of the way.
+Have questions or need assistance? Reach out to our team at [contact@raahat.com](mailto:contact@raahat.co). We're here to help you every step of the way.
