@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LegalAid"
+    android:background="#fcf2fa">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_black"
+        android:text="@string/legal_aid"
+        android:textColor="#6D175E"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageButtonProBonoLawyers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pro_bono_lawyers"
+                android:background="#00000000"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonPaidLawyers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paid_lawyers"
+                android:background="#00000000"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonLegalAidClinics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/legal_aid_clinics"
+                android:background="#00000000"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonChatBot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/know_your_rights_chatbot"
+                android:background="#00000000"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

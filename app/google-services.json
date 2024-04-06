@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675413877328",
+    "project_id": "raahatapp",
+    "storage_bucket": "raahatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675413877328:android:1842595729e7c9a33c6755",
+        "android_client_info": {
+          "package_name": "com.example.raahatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbtjvSx_C_wXHn-oBR5q2hxzTbs9-ddiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
