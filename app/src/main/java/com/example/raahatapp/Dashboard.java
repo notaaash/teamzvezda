@@ -54,6 +54,16 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
+        ImageButton btnBailProb = (ImageButton) findViewById(R.id.imageButton7);
+        btnBailProb.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, BailProb.class);
+                startActivity(intent);
+            }
+        });
+
         ImageButton btnHome = (ImageButton) findViewById(R.id.imageButtonHome);
         btnHome.setOnClickListener(new View.OnClickListener() {
 
